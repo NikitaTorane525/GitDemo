@@ -1,0 +1,132 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "nikiya_1_1",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "xys",
+    "types": [
+        "shoe dsds",
+        "dsds"
+    ],
+    "website": "http://sdsdds.com",
+    "language": "englis"
+}
+HTTP/1.1 200 OK
+Date: Wed, 27 May 2020 17:30:28 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "fbe12c2c30ca9e2cbb00f7d0edba8af7",
+    "scope": "APP",
+    "reference": "44ed358721083ac41bc5c0582b729dc344ed358721083ac41bc5c0582b729dc3",
+    "id": "44ed358721083ac41bc5c0582b729dc3"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=fbe12c2c30ca9e2cbb00f7d0edba8af7
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=fbe12c2c30ca9e2cbb00f7d0edba8af7
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 27 May 2020 17:30:29 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 227
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "nikiya_1_1",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "xys",
+    "types": "shoe dsds,dsds",
+    "website": "http://sdsdds.com",
+    "language": "englis"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "ben",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "abc street",
+    "types": [
+        "shoe dsds",
+        "dsds"
+    ],
+    "website": "http://sdsdds.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Wed, 27 May 2020 17:30:29 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "1e7cec3e071f5c0148087934f4f756a7",
+    "scope": "APP",
+    "reference": "562c46268428e341c89a39ae61943e0a562c46268428e341c89a39ae61943e0a",
+    "id": "562c46268428e341c89a39ae61943e0a"
+}

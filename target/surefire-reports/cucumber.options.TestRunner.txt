@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 1, Time elapsed: 7.749 sec <<< FAILURE!
+Verify if Delete Place functionality is working(Validating place API's)  Time elapsed: 0.017 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepdefinations.StepDefination.user_calls_something_with_post_http_request(StepDefination.java:49)
+	at ?.user calls "deletePlaceAPI" with "post" http request(file:///C:/OCP/JAVA/java-developer/Cucumber_Framework/src/test/java/features/placeValidations.feature:17)
+
